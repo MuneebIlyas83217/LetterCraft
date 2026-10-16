@@ -12,7 +12,7 @@ function Update() {
     const [form, setform] = useState({
         name: "",
         email: "",
-        password: ""
+        message: ""
     })
 
 
@@ -73,15 +73,14 @@ function Update() {
                     placeholder='example@gmail.com'
                     required
                 />
-
                 <input
-                    id="password"
-                    name="password"
-                    value={form.password}
+                    id="message"
+                    name="message"
+                    value={form.message}
                     onChange={handlechange}
                     className='p-2 border rounded-xl'
-                    type="password"
-                    placeholder='Password'
+                    type="text"
+                    placeholder='Message'
                     required
                 />
                 <button type='submit' className='p-2 border rounded-xl bg-[#0189CF] text-white cursor-pointer'> Update</button>

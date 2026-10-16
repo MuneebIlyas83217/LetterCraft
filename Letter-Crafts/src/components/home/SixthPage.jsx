@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import GetUsers from '../../pages/GetUsers'
 
 function SixthPage() {
     const [open, setOpen] = useState(false)
@@ -196,7 +197,10 @@ function SixthPage() {
                         )}
                     </div>
                 </div>
+
             </div>
+            <GetUsers/>
+
         </div>
     )
 }

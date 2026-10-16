@@ -5,6 +5,7 @@ import pic1 from '../../assets/badge.png'
 import pic2 from '../../assets/star.png'
 import { useState } from 'react'
 import API from '../../API'
+import GetUsers from '../../pages/GetUsers'
 
 function Lastpage() {
     const [form, setForm] = useState({
